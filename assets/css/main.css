@@ -2988,7 +2988,7 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 30%;
+				width: 40%;
 			}
 
 				.spotlights > section > .image img {
@@ -3058,11 +3058,11 @@ input, select, textarea {
             }
 
 			.spotlights > section > .image {
-				width: 30%;
+				width: 40%;
 			}
 
 			.spotlights > section > .content {
-				width: 70%;
+				width: 60%;
 			}
 
 		}
@@ -3075,11 +3075,11 @@ input, select, textarea {
 
 
 			.spotlights > section > .image {
-				width: 30%;
+				width: 40%;
 			}
 
 			.spotlights > section > .content {
-				width: 70%;
+				width: 60%;
 			}
 
 		}
