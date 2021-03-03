@@ -2953,7 +2953,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		padding-left: 3.25em;
 		position: relative;
-		color: rgb(0,0,0,0.7);
+		color: rgb(0,0,0,0.5);
 	}
 
 		.contact-method .icon {
