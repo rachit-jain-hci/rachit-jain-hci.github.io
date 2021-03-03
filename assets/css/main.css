@@ -2953,6 +2953,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		padding-left: 3.25em;
 		position: relative;
+		color: rgb(0,0,0,0.7);
 	}
 
 		.contact-method .icon {
@@ -3559,7 +3560,7 @@ input, select, textarea {
 				#banner > .inner .content p {
 					color: rgba(0,0,0,0.4);
                     font-size: 1em;
-					font-weight: 600;
+					font-weight: 0;
 					letter-spacing: 0.1em;
 /*					text-transform: uppercase;*/
 				}
