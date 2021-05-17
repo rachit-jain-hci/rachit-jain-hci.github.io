@@ -3630,9 +3630,9 @@ input, select, textarea {
 
 
 		#banner.major {
-			height: 100vh;
+			height: 110vh;
 			min-height: 30em;
-			max-height: 97vh;
+			max-height: 110vh;
 /*            margin-bottom: 10vh;*/
 		}
 
