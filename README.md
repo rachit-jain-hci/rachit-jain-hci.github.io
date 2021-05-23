@@ -1,1 +1,0 @@
-# rachit-shinka.github.io
