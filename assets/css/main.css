@@ -2663,7 +2663,7 @@ input, select, textarea {
 		}
 
 	#footer-index .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(255, 255, 255, 0.6);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -3153,6 +3153,38 @@ input, select, textarea {
 						padding-left: 0.75em;
 					}
 
+        #footer-study {
+				background-attachment: scroll;
+				background-color: #1f1815;
+				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-position: top left,						bottom center;
+				background-repeat: repeat,							no-repeat;
+				background-size: auto,							cover;
+				bottom: auto;
+				left: auto;
+				padding: 4em 4em 6em 4em;
+				position: relative;
+				text-align: center;
+				width: 100%;
+			}
+
+				#footer-study .icons {
+					margin: 0 0 1em 0;
+				}
+
+				#footer-study .copyright {
+					margin: 0 0 1em 0;
+				}
+
+					#footer-study .copyright li {
+						border-left-width: 1px;
+						display: inline-block;
+						line-height: 1em;
+						margin-left: 0.75em;
+						padding-left: 0.75em;
+					}
+
+        
 		/* Main */
 
 			#main-index {
@@ -3294,6 +3326,12 @@ input, select, textarea {
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
+}
+
+/*   Custom bold + underline on homepage */
+.emph {
+    text-decoration: underline;
+    color: #787878;
 }
 
 /* Show the snackbar when clicking on a button (class added with JavaScript) */
