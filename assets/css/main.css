@@ -376,8 +376,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-/*			width: 50%;*/
-			width: 100%;
+			width: 50%;
 		}
 
 		.row > .off-6 {
@@ -2577,6 +2576,26 @@ input, select, textarea {
 			margin: 0;
 		}
 
+
+.work-item-2 {
+		margin: 0 0 1.5em 0;
+	}
+
+		.work-item-2 .image {
+			margin: 0 0 1em 0;
+		}
+
+		.work-item-2 h3 {
+			font-size: 1.25em;
+			margin: 0 0 0 0;
+		}
+
+		.work-item-2 p {
+			font-size: 1em;
+			line-height: 1.5em;
+			margin: 0;
+		}
+
 /* Header */
 
 	#header-index {
@@ -3362,4 +3381,54 @@ input, select, textarea {
 @keyframes fadeout {
   from {bottom: 30px; opacity: 1;}
   to {bottom: 0; opacity: 0;}
+}
+
+
+/* Read more for timeline */
+#expend {
+  display:none;  
+}
+
+#expend + .smalldesc {
+  max-height:60vh;
+  overflow:hidden;
+  transition:all .5s ease;
+}
+
+#expend:checked + .smalldesc {
+  max-height:100%;  
+}
+
+#readmore {
+  color: #787878;
+  font-size: 1em;    
+  font-weight: 400;
+  text-decoration:underline;
+  cursor:pointer;
+  margin: 1em 0 0 0;
+}
+
+#readmore:hover {
+  text-decoration:none;  
+}
+
+
+
+/* Logos */
+
+.logo {
+    margin: 0 0 1em 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 0.35em;
+    border: 0;
+    position: relative;
+}
+
+
+.logo:after {
+  content: "";
+  display: block;
+  padding-bottom: 50%;
 }
